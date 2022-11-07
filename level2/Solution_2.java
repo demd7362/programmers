@@ -1,5 +1,5 @@
 import java.util.*;
-class Solution {
+class Solution_2{
     public int solution(int[] arr) {
         Arrays.sort(arr);
         int answer = 0;
