@@ -1,4 +1,4 @@
-class Solution {
+class Solution_02 {
     public String solution(String s) {
        char[] arr = s.toCharArray();
         int cnt = 0;
