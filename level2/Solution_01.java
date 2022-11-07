@@ -1,4 +1,4 @@
-class Solution_1 {
+class Solution_01 {
     public String solution(String s) {
         String[] arr = s.split(" ");
         
