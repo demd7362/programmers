@@ -13,3 +13,4 @@ class Solution {
         return arr[0] + " " + arr[arr.length - 1];
     }
 }
+ 
