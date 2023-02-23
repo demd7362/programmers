@@ -8,6 +8,12 @@ class Solution {
 		intersection.retainAll(reserved); // 교집합을 구하는 메소드
 		losted.removeAll(intersection); // 구한 교집합의 요소를 두 List에서 제거
 		reserved.removeAll(intersection);
+		
+		/* for(int i : intersection) { remove 메소드 안에 들어가는 값은 Integer여야만 한다.
+			Integer integer = i;
+			losted.remove(integer); => integer에 해당하는 요소 제거
+			reserved.remove(i); => i번째 인덱스 제거
+		} */
     
 		Collections.sort(losted); // for문을 돌리기 위한 ArrayList 정렬
 		Collections.sort(reserved);
