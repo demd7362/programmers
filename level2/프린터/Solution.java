@@ -42,5 +42,6 @@ class Solution {
         }
         return false;
     }
-
+    // 고쳐야할 점 => 한번쓰는 변수라도 헷갈리면 일단 변수에 담고 생각할 것, tmpQueue만들지 말고 iterator 사용
+    // Map<Integer,Integer> 만들지말고 idx과 priority 값이 존재하는 class를 만드는게 훨씬 나았다
 }
